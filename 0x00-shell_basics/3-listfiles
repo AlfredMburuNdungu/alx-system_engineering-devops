@@ -1,3 +1,2 @@
 #!/bin/bash
-current_directory=$(pwd)
-ls -l "$current_directory"
+ls -l $(pwd)
