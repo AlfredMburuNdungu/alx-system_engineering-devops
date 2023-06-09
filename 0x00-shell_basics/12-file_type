@@ -1,4 +1,3 @@
 !#/bin/bash/
 file_type=$(file -i /tmp/iamafile| awk -F ' ' '{print $2}')
   echo "The file type of iamafile is: $file_type"
-
