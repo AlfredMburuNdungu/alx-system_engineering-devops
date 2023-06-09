@@ -1,0 +1,5 @@
+#!/bin/bash
+
+current_directory=$(pwd)
+ls -aln "$current_directory"
+
