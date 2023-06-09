@@ -4,3 +4,4 @@ current_directory=$(pwd)
 echo "Contents of current directory ($current_directory):"
 ls -al "$current_directory"
 
+

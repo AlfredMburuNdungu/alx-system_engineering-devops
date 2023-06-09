@@ -12,3 +12,4 @@ for html_file in $html_files; do
     if [[ ! -e "$parent_file_path" ]]; then
         cp -u "$html_file" "$parent_dir"
 
+

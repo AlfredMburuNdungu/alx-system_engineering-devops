@@ -3,3 +3,4 @@
 current_directory=$(pwd)
 ls -l "$current_directory"
 
+
