@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Find all subdirectories in the current directory
+subdirs=$(find . -type d)
+
+# Iterate over each subdirectory
+for subdir in $subdirs; do
+    # Check if the current item is a regular file
+    if [ -f "$subdir" ]; then
+        continue
+    fi
+
+    # Add execute permission for the owner, group owner, and all other users
+    chmod a+x "$subdir"
+done
+
