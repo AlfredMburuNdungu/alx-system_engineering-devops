@@ -1,0 +1,3 @@
+#!/bin/bash
+read -p input; modified_input=${input//[cC]}; echo "$modified_input"
+

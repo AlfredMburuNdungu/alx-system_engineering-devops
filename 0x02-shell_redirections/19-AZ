@@ -1,0 +1,3 @@
+#!/bin/bash
+read -p "Enter the input: " input; modified_input=${input//A/Z}; modified_input=${modified_input//c/e}; echo "$modified_input"
+

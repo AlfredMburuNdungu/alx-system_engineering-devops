@@ -1,0 +1,3 @@
+#!/bin/bash
+pr -m /etc/passwd /etc/hosts
+
