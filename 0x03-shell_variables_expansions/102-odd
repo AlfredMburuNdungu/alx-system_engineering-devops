@@ -1,3 +1,2 @@
 #!/bin/bash
 counter=1; while read -r line; do if (( counter % 2 == 1 )); then echo "$line"; fi; counter=$((counter + 1)); done
-

@@ -1,3 +1,2 @@
 #!/bin/bash
 result=1; for ((i=1; i<=$LOVE; i++)); do result=$((result * $BREATH)); done; echo $result
-
