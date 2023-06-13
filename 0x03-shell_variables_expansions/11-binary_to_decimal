@@ -1,0 +1,3 @@
+#!/bin/bash
+decimal=0; for ((i=0; i<${#BINARY}; i++)); do decimal=$((decimal * 2 + ${BINARY:i:1})); done; echo $decimal
+
