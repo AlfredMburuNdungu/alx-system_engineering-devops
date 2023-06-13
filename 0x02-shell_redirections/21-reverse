@@ -1,3 +1,2 @@
 #!/bin/bash
 read -p  input; echo "$(echo "$input" | rev)"
-
